@@ -143,7 +143,7 @@ utilities = {
     end,
     switchTab = function(tabInfo)
         library.storage.currentTab.Tab.Visible = false
-        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(120, 138, 255)
+        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(230, 230, 230)
         library.storage.currentTab = tabInfo
         library.storage.currentTab.Tab.Visible = true
         library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -283,7 +283,7 @@ library.addtab = function(name)
     TabBtn.Size = UDim2.new(0, 60, 0, 26)
     TabBtn.Font = Enum.Font.GothamBlack
     TabBtn.Text = name
-    TabBtn.TextColor3 = Color3.fromRGB(185, 158, 255)
+    TabBtn.TextColor3 = Color3.fromRGB(230, 230, 230)
     TabBtn.TextSize = 14.000
     TabBtn.Size = UDim2.new(0, TabBtn.TextBounds.X+12, 0, 26)
     

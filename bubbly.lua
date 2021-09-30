@@ -146,7 +146,7 @@ utilities = {
         library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(255,255,255)
         library.storage.currentTab = tabInfo
         library.storage.currentTab.Tab.Visible = true
-        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(165, 138, 255)
+        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(185, 158, 255)
     end
 }
 

@@ -143,10 +143,10 @@ utilities = {
     end,
     switchTab = function(tabInfo)
         library.storage.currentTab.Tab.Visible = false
-        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(255,255,255)
+        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(185, 158, 255)
         library.storage.currentTab = tabInfo
         library.storage.currentTab.Tab.Visible = true
-        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(185, 158, 255)
+        library.storage.currentTab.Button.TextColor3 = Color3.fromRGB(255, 255, 255)
     end
 }
 
@@ -185,7 +185,7 @@ end)
 library.initiate = function(name)
     library.ui.Enabled = true
     library.storage.tabs[1].Tab.Visible = true
-    library.storage.tabs[1].Button.TextColor3 = Color3.fromRGB(165, 138, 255)
+    library.storage.tabs[1].Button.TextColor3 = Color3.fromRGB(255, 255, 255)
     library.storage.currentTab = library.storage.tabs[1]
     local Title = Instance.new("TextLabel")
     Title.Name = "Title"
@@ -283,7 +283,7 @@ library.addtab = function(name)
     TabBtn.Size = UDim2.new(0, 60, 0, 26)
     TabBtn.Font = Enum.Font.GothamBlack
     TabBtn.Text = name
-    TabBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TabBtn.TextColor3 = Color3.fromRGB(185, 158, 255)
     TabBtn.TextSize = 14.000
     TabBtn.Size = UDim2.new(0, TabBtn.TextBounds.X+12, 0, 26)
     
